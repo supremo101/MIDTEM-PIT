@@ -1,0 +1,240 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+header{
+  margin: 0;
+  position: sticky;
+  top: -8px;
+  z-index: 1000;
+  background-color: white;
+}
+.navbar ul {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  background-color: #ffffff;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.navbar ul li {
+  margin-inline: 25px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.navbar a:hover {
+  text-decoration: underline;
+  color: #34ba9e;
+}
+.navbar ul .login {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+.tunga {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 10px;
+}
+.tunga ul {
+  list-style: none;
+}
+.teacher {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.teacher ul {
+  list-style: none;
+}
+.teacher h1 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: sans-serif;
+  color: #34ba9e;
+}
+.teacher ul li {
+  color: #34ba9e;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.teacher img {
+  width: 80px;
+}
+.video {
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.process {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.asd {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.seen {
+  width: 100%;
+  text-align: center;
+}
+.logo > img {
+  width: 190px;
+  padding-inline: 40px;
+}
+.logo {
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.teachers {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.save {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+.toplokanan {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.toplokanan li {
+  cursor: pointer;
+  font-size: 18px;
+}
+.toplokanan li:active {
+  color: #34ba9e;
+  text-decoration: underline solid #34ba9e;
+}
+.bals {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+}
+.wala {
+  margin-left: 60px;
+}
+.klaro {
+  margin-right: 150px;
+}
+.online:active {
+  display: block;
+}
+.otlen {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f3f3f3;
+  padding: 50px 0 50px;
+}
+.empow {
+  margin: 50px 0 50px;
+}
+.hober{
+  width: 170px; 
+  height: 100px;
+}
+.hober:hover{
+  transform: scale(110%);
+  transition: 0.3s;
+
+}
+.box-qoute {
+  width: 300px;
+  height: 490px;
+  border: green solid;
+  border-radius: 5px;
+  box-shadow: 10px 1px 10px 1px;
+}
+.margsin {
+  margin-inline: 15px;
+}
+.teolms {
+  display: flex;
+  justify-content: space-between;
+}
+.hpot {
+  padding-top: 100px;
+}
+.ktogns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.opkaau {
+  text-align: center;
+}
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq h3 {
+  border-style: solid;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+  border-color: #F3F3F3;
+}
+.emasl:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+footer{
+    background-color: #1E1E1E;
+    color: white;
+    padding-top: 130px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: start;
+    align-items: safe;
+    width: auto;
+}
+.footer div{
+    margin-right: 80px;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer span{
+    font-size: 30px;
+}
+.foota p:hover{
+    color: green;
+    cursor: pointer;
+    user-select: none;
+}
